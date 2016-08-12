@@ -1,0 +1,16 @@
+.LetterPar {
+    border: 2px solid black;
+    border-radius: 10px;
+    font: 5em bold; 
+    text-align: center;
+}
+.head {
+	text-align: center;
+	margin: 40px 0;
+}
+.row {
+	padding: 10px
+}
+.LetterPar {
+	visibility: hidden;
+}

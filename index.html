@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Litera Extra</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row head">
+      <div class="col-md-offset-3 col-md-6">
+        <h2>Zabawa z literkami</h2>
+        <p>Wybierz poniżej aby zobaczyć jak wygląda.</p>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+          <label class="control-label col-sm-3" for="LetterId">Wpisz literę</label>
+          <div class="col-sm-9">
+           <input type="text" class="form-control" id="LetterId" placeholder="Wpisz literę">
+          </div>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        <label class="control-label col-sm-3" for="ColorLetterId">Kolor litery</label>
+        <div class="col-sm-9">
+          <select class="form-control" id="ColorLetterId">               
+            <option value="white">Biały</option>
+            <option value="yellow">Żółty</option>
+            <option value="green">Zielony</option>
+            <option value="red">Czerwony</option>
+            <option value="blue">Niebieski</option>
+            <option value="black">Czarny</option>               
+          </select>
+        </div>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        <label class="control-label col-sm-3" for="ColorBgId">Kolor tła</label>
+        <div class="col-sm-9">
+          <select class="form-control" id="ColorBgId">
+            <option value="black">Czarny</option>
+            <option value="yellow">Żółty</option>
+            <option value="green">Zielony</option>
+            <option value="red">Czerwony</option>
+            <option value="blue">Niebieski</option>
+            <option value="white">Biały</option>  
+          </select>
+        </div>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+          <div class="col-sm-offset-3 col-sm-9">
+            <p class="LetterPar" id="ResultId"></p>
+          </div>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        <div class="col-sm-offset-3 col-sm-9">
+          <button class="btn btn-default" onclick="FunctionChange()">Odśwież</button> 
+<!--    <input type="button" onclick="FunctionChange()" value="Odśwież"/><p > -->
+        </div>
+      </div>
+    </div>    
+  </div>
+  <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
